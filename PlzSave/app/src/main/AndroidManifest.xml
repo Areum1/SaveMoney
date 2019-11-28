@@ -9,12 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Calculator"></activity>
+        <activity android:name=".Input"></activity>
+        <activity android:name=".Calculator" />
         <activity android:name=".Wishlist" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC1ldwKvG60e0t_y9TmMiR7IlzMRQUPjP8" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".Map" />
         <activity android:name=".MainActivity">
